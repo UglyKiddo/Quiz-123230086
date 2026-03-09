@@ -113,7 +113,7 @@ class _FoodListPageState extends State<FoodListPage> {
                       onPressed: (){
                         ScaffoldMessenger.of(context).showSnackBar(
                             const SnackBar(
-                              backgroundColor: Colors.red,
+                              backgroundColor: Color.fromARGB(255, 54, 73, 244),
                               content: Text("Sedang Memesan")
                               ),
                           );

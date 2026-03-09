@@ -48,6 +48,13 @@ class FoodDetailPage extends StatelessWidget {
                       ),
                     ),
 
+                  Text(
+                    "Kalori: ${food.calories}",
+                    style: const TextStyle(
+                      fontWeight: FontWeight.bold
+                      ),
+                    ),
+
                   const SizedBox(height: 10),
 
                   Text(food.description),
